@@ -1075,6 +1075,8 @@ footer {
   .Learn-more-btn {
     width: 80%;
   }
+  nav h1 {
+    font-size: 1.7rem;
 }
 
 /* Medium devices (tablets) */
