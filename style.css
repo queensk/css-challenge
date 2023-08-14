@@ -705,7 +705,7 @@ footer {
 }
 
 /* Extra Small devices (portrait phones) */
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   /* Adjust styles for xs screens */
   .pricing-cards {
     display: block;
@@ -1035,6 +1035,33 @@ footer {
 /* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Adjust styles for md screens */
+  .hero-items h1 {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+  .hero-items {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5rem;
+    margin-top: -5%;
+  }
+
+  .newsletter-subscribe-btn {
+    width: 30%;
+    height: 50px;
+    background-color: #23a6f0;
+    color: #fff;
+    border: none;
+  }
 }
 
 /* Large devices (desktops) */
