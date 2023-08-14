@@ -333,13 +333,13 @@ nav h1 {
   font-weight: 800;
 }
 
-.subscribe-text {
+/* .subscribe-text {
   width: 30%;
-}
+} */
 
 .subscribe-text {
   height: 60%;
-  /* width: 70%; */
+  width: 70%;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -363,7 +363,7 @@ nav h1 {
 
 .newsletter-subscribe-btn {
   width: 30%;
-  height: 100%;
+  height: 50px;
   background-color: #23a6f0;
   color: #fff;
   border: none;
@@ -461,8 +461,7 @@ nav h1 {
 .subscription-package {
   margin: 2rem 0;
 }
-
-.subscription-package-item {
+subscribe-text .subscription-package-item {
   /* display: flex; */
   margin: 1rem 0;
   font-size: 1.2rem;
@@ -668,19 +667,19 @@ footer {
 .mobile-nav {
   display: none;
 }
-
+/* mobile-nav */
 /* Mobile navigation styles */
-.mobile-nav {
+/* .mobile-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #23a6f0;
   color: #fff;
   padding: 10px 20px;
-}
+} */
 
 .nav-toggle {
-  display: none; /* Hide toggle on larger screens */
+  display: block; /* Hide toggle on larger screens */
   cursor: pointer;
 }
 
@@ -695,18 +694,25 @@ footer {
   display: flex;
   align-items: center;
 }
-
+/* subscribe-text */
 .nav-items-links {
-  display: none; /* Hide links initially */
+  /* display: none; */
 }
 
 .nav-login-links {
-  display: none; /* Hide login links initially */
+  /* display: none; */
 }
 
 /* Extra Small devices (portrait phones) */
 @media (max-width: 576px) {
   /* Adjust styles for xs screens */
+  .newsletter-subscribe-btn {
+    width: 30%;
+    height: 50px;
+    background-color: #23a6f0;
+    color: #fff;
+    border: none;
+  }
   .pricing-cards {
     display: block;
     width: 100%;
@@ -871,6 +877,13 @@ footer {
 /* Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 767px) {
   /* Adjust styles for sm screens */
+  .newsletter-subscribe-btn {
+    width: 30%;
+    height: 50px;
+    background-color: #23a6f0;
+    color: #fff;
+    border: none;
+  }
   .pricing-cards {
     display: block;
     width: 100%;
@@ -1056,11 +1069,27 @@ footer {
   }
 
   .newsletter-subscribe-btn {
-    width: 30%;
+    width: 40%;
     height: 50px;
     background-color: #23a6f0;
     color: #fff;
     border: none;
+  }
+  .industry-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 6%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 4% 8%;
+    width: 100%;
+    background-color: #fff;
   }
 }
 
