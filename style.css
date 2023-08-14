@@ -706,6 +706,22 @@ footer {
 /* Extra Small devices (portrait phones) */
 @media (max-width: 576px) {
   /* Adjust styles for xs screens */
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23a6f0;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  /* subscribe-text */
+  .nav-items-links {
+    display: none;
+  }
+
+  .nav-login-links {
+    display: none;
+  }
   .newsletter-subscribe-btn {
     width: 30%;
     height: 50px;
