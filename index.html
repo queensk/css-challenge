@@ -10,7 +10,7 @@
     <div class="container">
       <div class="container-user-grid">
         <div class="nav-container">
-          <nav>
+          <nav class="desk-top-nav">
             <div class="nav-items">
               <h1>BrandName</h1>
               <div class="nav-items-links">
@@ -24,7 +24,30 @@
               <span> login </span>
               <button>
                 Become a member
-                <img src="./images/#hero-cover.3 (1).png" alt="" />
+                <img src="./images/arrow.svg" alt="" class="svg-icon" />
+              </button>
+            </div>
+          </nav>
+          <nav class="mobile-nav">
+            <div class="nav-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="nav-items">
+              <h1>BrandName</h1>
+              <div class="nav-items-links">
+                <span>Home</span>
+                <span>Product</span>
+                <span>Pricing</span>
+                <span>Contact</span>
+              </div>
+            </div>
+            <div class="nav-login-links">
+              <span>Login</span>
+              <button>
+                Become a member
+                <img src="./images/arrow.svg" alt="" class="svg-icon" />
               </button>
             </div>
           </nav>
@@ -44,34 +67,34 @@
         </div>
 
         <div class="hero-cards">
-          <div>
-            <div>
-              <div>
-                <img src="./images/" alt="" />
-              </div>
-              <div>
-                <h1>Peace of mind</h1>
-                <p>the quick fox jump over the the lazy dog dogs</p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="./images/" alt="" />
-              </div>
-              <div>
-                <h1>Set For Life</h1>
-                <p>the quick fox jump over the the lazy dog dogs</p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="./images/" alt="" />
-              </div>
-              <div>
-                <h1>Peace of mind</h1>
-                <p>the quick fox jump over the the lazy dog dogs</p>
-              </div>
-            </div>
+          <!-- <div > -->
+          <div class="hero-card">
+            <!-- <div> -->
+            <img src="./images/users-outline.svg" alt="" />
+            <!-- </div> -->
+            <!-- <div> -->
+            <h1>Peace of mind</h1>
+            <p>the quick fox jump over the lazy dog dogs</p>
+            <!-- </div> -->
+          </div>
+          <div class="hero-card">
+            <!-- <div> -->
+            <img src="./images/users-outline.svg" alt="" />
+            <!-- </div> -->
+            <!-- <div> -->
+            <h1>Set For Life</h1>
+            <p>the quick fox jump over the the lazy dog dogs</p>
+            <!-- </div> -->
+          </div>
+          <div class="hero-card hero-card-last">
+            <!-- <div class="hero-card-icon"> -->
+            <img src="./images/users-outline-blue.svg" alt="" />
+            <!-- </div> -->
+            <!-- <div> -->
+            <h1>Peace of mind</h1>
+            <p>the quick fox jump over the the lazy dog dogs</p>
+            <!-- </div> -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -79,17 +102,17 @@
       <div class="values-container">
         <div class="values-container-items">
           <div class="value-card">
-            <div><img src="" alt="" /></div>
+            <div><img src="/images/book-line.svg" alt="" /></div>
             <h1>Peace of mind</h1>
             <p>so it really behaves like neither. Now We have given up</p>
           </div>
           <div class="value-card">
-            <div><img src="" alt="" /></div>
+            <div><img src="/images/file-mark-line.svg" alt="" /></div>
             <h1>Set of Life</h1>
             <p>They were used to create the machines that launch</p>
           </div>
           <div class="value-card">
-            <div><img src="" alt="" /></div>
+            <div><img src="/images/users-outline-larg.svg" alt="" /></div>
             <h1>100% Satisfaction</h1>
             <p>So it really behaves like neither Now we have given up</p>
           </div>
@@ -302,37 +325,56 @@
                 and Born.
               </p>
             </div>
-            <div>
+            <div class="main-branch-image">
               <img src="./images/pingwig.png" alt="" />
             </div>
           </div>
         </div>
         <div class="main-appointment-section">
-          <div>
-            <div>
-              <img src="" alt="" />
+          <div class="appointment-container">
+            <div class="appointment-img-ref">
+              <img src="/images/contact.png" alt="" />
             </div>
             <form action="">
               <h1>Book Appointment</h1>
-              <label for="">
-                <input type="text" />
+              <label for="Name">
+                Name *
+                <br />
+                <input type="text" placeholder="Full Name*" />
               </label>
-              <label for="">
-                <input type="text" />
+              <label for="Email">
+                Email address *
+                <br />
+                <input type="email" placeholder="example@gmail.com" />
               </label>
-              <label for="">
-                <input type="text" />
+              <label for="department">
+                Department *
+                <br />
+                <select id="department">
+                  <option value="" selected disabled>Please Select</option>
+                  <option value="hr">Human Resources</option>
+                  <option value="it">Information Technology</option>
+                  <option value="sales">Sales</option>
+                </select>
               </label>
+
               <label for="">
-                <input type="text" />
+                Time *
+                <br />
+                <select id="department">
+                  <option value="" selected disabled>4:00 Available</option>
+                  <option value="hr">4:00 Available</option>
+                  <option value="it">5:00 Available</option>
+                  <option value="sales">6:00 Available</option>
+                </select>
               </label>
               <button>Book Appointment</button>
             </form>
           </div>
         </div>
       </div>
-      <div>
-        <div>
+      <div class="main-contact-us">
+        <div class="main-contact-text">
           <h1>Consulting Agency For Your Business</h1>
           <p>The quick fox jump over the lazy dog</p>
         </div>
