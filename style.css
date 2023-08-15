@@ -892,6 +892,11 @@ footer {
     font-size: 1.7rem;
     font-weight: 800;
   }
+  .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 /* Small devices (landscape phones) */
@@ -904,6 +909,11 @@ footer {
     background-color: #23a6f0;
     color: #fff;
     padding: 10px 20px;
+  }
+  .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
   /* subscribe-text */
   .nav-items-links {
